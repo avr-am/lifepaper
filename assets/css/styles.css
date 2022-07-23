@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:kanit;
+    margin: 0;
+    background-color: var(--primary);
+
+}
+
+.back {
+    color: var(--white);
+    text-decoration: none;
+    position: fixed;
+    left: 97%;
+    top: 94%;
+    font-size: 35px;
+}
+
+/*HEADER*/
+
+header{
+    background-color: var(--primary);
+    position: relative;
+    overflow: hidden;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 35px;
+    z-index: 1;
+    color: white;
+    
+}
+
+header nav span:hover {
+    background-color: var(--secundary);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+header nav span a {
+    text-decoration: none;
+    color: white;
+}
+
+.hr {
+    background: linear-gradient(to right, var(--hr), var(--secundary) , var(--hr));
+    height: 3px;
+    border: none;
+}
+
+/*Main*/
+
+main section h1 {
+    text-align: center;
+    color: var(--white);
+    font-family:kanit;
+    letter-spacing: 0.5rem;
+}
+
+
+
+/*Home*/
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 180px;
+    font-size: 20px;
+    
+}
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    box-shadow:  0 0 4px var(--secundary);
+    
+}
+main section div {
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+/*Skillset*/
+
+
+.skill {
+    display: block;
+    margin-bottom: 120px;
+    margin-top: 85px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.skillset {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.skillset img {
+    border-radius: 8px;
+    margin: 25px;
+    width: 130px;
+    height: 130px;
+    opacity: 1;
+}
+
+.letters {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+/*
+.skillset img:hover {
+    opacity: 0;
+}
+
+.text1 {
+    position: absolute;
+    z-index: -1;
+    top: 21%;
+    left: 40.3%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #F27C38;
+}
+
+.text2 {
+    position: absolute;
+    z-index: -1;
+    top: 21%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #117DBF;
+}
+.text3 {
+    position: absolute;
+    z-index: -1;
+    top: 21%;
+    left: 60.3%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #F2CE1B;
+}
+.text4 {
+    position: absolute;
+    z-index: -1;
+    top: 69%;
+    left: 40.3%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #2561D9;
+}
+.text5 {
+    position: absolute;
+    z-index: -1;
+    top: 69%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #0CC8F2;
+}
+.text6 {
+    position: absolute;
+    z-index: -1;
+    top: 69%;
+    left: 61.3%;
+    transform:translate(-50%,-50%);
+    opacity: 1;
+    font-size: 25px;
+    color: #92BF4E;
+}
+*/
+/*About Me*/
+
+
+.about-me {
+    margin: 140px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+ 
+}
+.photo {
+    width: 700px;
+    
+ 
+}
+
+.me {
+    margin-left: 80px;
+    width: auto;
+    height: auto;
+    color: var(--white);
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.ubication {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+/*Contact*/
+
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 65px;
+    
+}
+
+.social img {
+    width: 70px;
+}
+
+.social img:hover {
+    opacity: 0.3;
+}
+
+form {
+    color: var(--white);
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+form label {
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+    
+}
+
+input,
+textarea,input:focus,
+textarea:focus {
+    width:100%;
+    padding: 1rem;
+    color:var(--white);
+    border:none;
+    background-color:var(--secundaryLight);
+    box-shadow:none;
+    cursor:pointer;
+    margin: 1rem 0 2rem;
+    
+    resize: none;
+}
+.datos {
+    margin: 50px;
+}
+
+button {
+    background-color: var(--secundaryLight);
+    border-radius: 15px;
+    opacity:  1;
+    color: var(--white);
+    border: none;
+}
+/*FOOTER*/
+
+footer {
+    color: var(--white);
+}
+
+
+/*
+.profile {
+    position: absolute;
+    opacity: 0.5;
+    max-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    z-index: 0;
+    
+}
+*/
